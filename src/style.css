@@ -1,0 +1,25 @@
+.character-div-img{
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+div.character-div{
+  display: inline-flex;
+  padding: 0 30px;
+  border-radius: 5px;
+  background: rgb(101, 96, 98);
+  margin:20px;
+}
+
+div.character-container h4{
+  margin: 20px;
+}
+.house-logo{
+  width: 50px;
+  height: 20px;
+}
+
+.img-house-div{
+  display: inline-flex;
+  align-items: center;
+}
