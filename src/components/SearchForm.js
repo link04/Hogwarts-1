@@ -1,16 +1,12 @@
 import React, { PureComponent } from 'react';
 
-class SearchForm extends PureComponent {
-  render() {
+const SearchForm = (props) => {
     return (
-      <div className="App">
-        <header className="App-header">
-          <h1>Hogwarts</h1>
-        </header>
-
+      <div className="">
+          <h4>Search Characters</h4>
+            <input type="text" placeholder="Type Name or House Name" onChange={props.handleSearchChange} />
       </div>
     );
-  }
 }
 
 export default SearchForm;

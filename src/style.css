@@ -3,12 +3,22 @@
   height: 200px;
   border-radius: 10px;
 }
+
+.character-div-img-house {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+
 div.character-div{
   display: inline-flex;
   padding: 0 30px;
   border-radius: 5px;
   background: rgb(101, 96, 98);
   margin:20px;
+  justify-content: center;
+  align-items: center;
 }
 
 div.character-container h4{
@@ -22,4 +32,75 @@ div.character-container h4{
 .img-house-div{
   display: inline-flex;
   align-items: center;
+}
+
+p {
+  font-size: 19px;
+}
+
+h5 {
+  margin: 10px 0px;
+}
+/*  Form css */
+input[type="text"],[type="number"] {
+  display: block;
+  margin: 10px auto;
+  border-radius: 5px;
+  width: 200px;
+  height: 20px;
+  font-size: 15px;
+  border-color: rgb(173, 157, 164);
+  background: transparent;
+  color: white;
+}
+
+input[type="submit"]{
+  display: block;
+  margin: 10px auto;
+  border-radius: 5px;
+  width: 100px;
+  height: 20px;
+  font-size: 15px;
+  border-color: rgb(173, 157, 164);
+  background: #2187c1;
+  color: black;
+}
+
+select {
+  display: block;
+  margin: 0 auto;
+  margin: 10px auto;
+  border-radius: 5px;
+  border-width: thin;
+  width: 200px;
+  height: 20px;
+  font-size: 15px;
+}
+
+label {
+  font-size: 20px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: white;
+}
+/* small tag */
+small{
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: underline;
+  color:rgb(97, 191, 231);
+}
+
+small:hover {
+opacity: 0.8;
 }
